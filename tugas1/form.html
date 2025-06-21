@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            margin: 0;
+            
+        }
+            
+        .form{
+            height: 100vh;
+            text-align: center;
+            justify-content: center;
+            align-content: center;
+            background-image: url(https://images.pexels.com/photos/1666315/pexels-photo-1666315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: poppins;
+
+        }
+        input, label{
+            text-align: center;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            font-size: 1rem;
+        }
+        nav{
+            background-color: black;
+            width: 100%;
+            height: 50px;
+
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-color: black;
+            align-items: center;
+        }
+        li{
+            margin: 10px;
+            padding: 8px 12px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            
+        }
+        a:hover{
+            color: red;
+        }
+        a{
+            color: whitesmoke;
+            text-decoration: none;
+        }
+        .Home{
+            background-color: grey;
+        }
+        .submit:hover{
+            color: red;
+            background-color: azure;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="Home"><a href="index.html" type="_blank">Home</a></li>
+            <li><a href="article.html" type="_blank">Article</a></li>
+            <li><a href="schedule.html" type="_blank">Schedule</a></li>
+            <li><a href="form.html" type="_blank">Form</a></li>
+        </ul>
+    </nav>
+    <div class="form">
+        <div>
+            <h1>Form Submission</h1>
+        </div>
+        <form action="">
+
+            <input type="text" placeholder="Name" style="border-radius: 15px; height: 30px; width: 300px;"><br>
+            <input type="text" placeholder="Password" style="border-radius: 15px; height: 30px; width: 300px;"><br>
+            <label for="hobby">Hobby:</label><br>
+            <input type="checkbox" name="singing" value="singing">Singing
+            <input type="checkbox" name="drawing" value="drawing">Drawing
+            <input type="checkbox" name="dancing" value="dancing">Dancing <br>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female <br>
+            <label for="Birth Date">Birth Date: </label> <br>
+            <input type="date"> <br>
+            <label for="Adress">Adress: </label></Br>
+            <textarea name="adress" id="" style="height: 50px; width: 200px; margin-top: 5px; margin-bottom: 5px;">City, State, Nation</textarea> <br>
+            <input class="submit" type="submit" placeholder="Submit" style="border-radius: 20px;">
+
+        </form>
+    </div>
+    
+</body>
+</html>
