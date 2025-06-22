@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+     <style>
+        body{
+            color: white;
+        }
+        .nav-link{
+            color: white;
+            font-weight: bold;
+        }
+        .nav-link:hover{
+            color: rgb(141, 231, 121);
+        }
+        .information{
+            height: 200px;
+        }
+        img{
+            height: 400px;
+            object-fit: cover;
+        }
+        
+     </style>
+</head>
+<body class="bg-light">
+    <nav class="container d-flex justify-content-between align-items-center py-3 bg-success mt-3 rounded-4">
+        <div class="d-flex ">
+            <ul class="nav gap-4 mb-0">
+                <li class="nav-item"><a href="" class="nav-link">Foodie</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Product</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+        <div class="d-flex">
+            <input class="form-control me-2 rounded-4" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-light rounded-4" type="submit" style="color: white;">Search</button>
+            <ul class="nav">
+                <li><a href="login.html" class="nav-link">Login</a></li>
+            </ul></div>
+    </nav>
+    <div class="information container d-flex flex-column align-items-center justify-content-center bg-success mt-3 rounded-4">
+        <h1 class="p5-3">Welcome to My Foodie</h1>
+        <p class="text-center">Welcome to our food haven! Discover mouthwatering recipes, cooking tips, and culinary inspiration from around the world. Whether you're a home cook or a foodie explorer, we've got something delicious for everyone. Let’s make every meal an unforgettable experience!</p>
+    </div>
+    <div id="carouselExampleFade" class=" container carousel slide carousel-fade mt-3">
+        <div class="carousel-inner rounded-4">
+            <div class="carousel-item active">
+                <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?_gl=1*xa0345*_ga*MzY1MDU1MjE2LjE3NDg1MDk0NDE.*_ga_8JE65Q40S6*czE3NTA0NzAyODAkbzUkZzEkdDE3NTA0NzA1MDkkajE1JGwwJGgw" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?_gl=1*1af98qp*_ga*MzY1MDU1MjE2LjE3NDg1MDk0NDE.*_ga_8JE65Q40S6*czE3NTA0NzAyODAkbzUkZzEkdDE3NTA0NzA0NjUkajU5JGwwJGgw" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?_gl=1*9o2mxu*_ga*MzY1MDU1MjE2LjE3NDg1MDk0NDE.*_ga_8JE65Q40S6*czE3NTA0NzAyODAkbzUkZzEkdDE3NTA0NzA0MDAkajU5JGwwJGgw" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container d-flex flex-row justify-content-evenly mt-3">
+        <div class="card rounded-4 bg-success-subtle" style="width: 18rem; height: 350px;">
+            <img style="height: 150px; object-fit: contain;" src="shop.svg" class="card-img-top pt-5" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Location</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+                    content.</p>
+                <a href="#" class="btn btn-success">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card rounded-4 bg-success-subtle" style="width: 18rem; height: 350px;">
+            <img style="height: 150px; object-fit: contain;" src="fork-knife.svg" class="card-img-top pt-5" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Foods</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+                    content.</p>
+                <a href="#" class="btn btn-success">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card rounded-4 bg-success-subtle" style="width: 18rem; height: 350px;">
+            <img style="height: 150px; object-fit: contain;" src="currency-dollar.svg" class="card-img-top pt-5" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Promotion</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+                    content.</p>
+                <a href="#" class="btn btn-success">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center mt-3">
+        <h1 class="display-6" style="color: black;">Foods of the Month (Best Seller Food)</h1>
+    </div>
+    <table class="table container mt-3">
+        <thead class="table-success">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Categories</th>
+                <th scope="col">Food</th>
+                <th scope="col">Price</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider">
+            <tr>
+                <th scope="row">1</th>
+                <td>Indonesian Food</td>
+                <td>Fried Rice</td>
+                <td>Rp. 20.000</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Indian Food</td>
+                <td>Indian Curry</td>
+                <td>Rp. 27.000</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Mexican Food</td>
+                <td>Taco</td>
+                <td>Rp. 31.000</td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+    
+</body>
+</html>
